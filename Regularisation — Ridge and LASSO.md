@@ -14,8 +14,8 @@ $$\text{Loss}=\text{MSE}+\lambda\cdot\text{Penalty}(\beta)$$
 
 ## Ridge vs LASSO
 
-- **Ridge (L2):** penalty \sum_j \beta_j^2. Shrinks coefficients toward 0, rarely to exactly 0. Good with many small effects and collinearity.
-- **LASSO (L1):** penalty \sum_j |\beta_j|. Forces many coefficients to **exactly 0** (sparse model). Good when only a subset matters or you want a short list.
+- **Ridge (L2):** penalty $\sum_j \beta_j^2$. Shrinks coefficients toward 0, rarely to exactly 0. Good with many small effects and collinearity.
+- **LASSO (L1):** penalty $\sum_j |\beta_j|$. Forces many coefficients to **exactly 0** (sparse model). Good when only a subset matters or you want a short list.
 
 ## Why L2 ≈ “near zero” but L1 = “exact zero”
 
